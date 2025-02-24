@@ -95,11 +95,6 @@ procedure_name_3 = 'sp_prod_sales_invoice_02_2_wayfair_daily'
 procedure_name_4 = 'sp_prod_sales_invoice_02_2_avc_ds_daily'
 procedure_name_5 = 'sp_prod_sales_invoice_02_2_asc_daily'
 procedure_name_6 = 'sp_prod_sales_invoice_02_2_avc_di_wh_daily'
-# procedure_name_7 = 'sp_y4a_erp_sel_exp_cop_inv_api_upt'
-# procedure_name_8 = 'sp_y4a_erp_sel_exp_ads_dtl_api_upt'
-# procedure_name_9 = 'sp_y4a_erp_sel_exp_inv_api_log'
-# procedure_name_10 = 'sp_y4a_erp_sel_exp_inv_api_incr'
-
 
 call_stored_procedure(host, name, passwd, db,  procedure_schema, procedure_name_1)
 call_stored_procedure(host, name, passwd, db,  procedure_schema, procedure_name_2)
@@ -107,10 +102,6 @@ call_stored_procedure(host, name, passwd, db,  procedure_schema, procedure_name_
 call_stored_procedure(host, name, passwd, db,  procedure_schema, procedure_name_4)
 call_stored_procedure(host, name, passwd, db,  procedure_schema, procedure_name_5)
 call_stored_procedure(host, name, passwd, db,  procedure_schema, procedure_name_6)
-# call_stored_procedure(host, name, passwd, db,  procedure_schema, procedure_name_7)
-# call_stored_procedure(host, name, passwd, db,  procedure_schema, procedure_name_8)
-# call_stored_procedure(host, name, passwd, db,  procedure_schema, procedure_name_9)
-# call_stored_procedure(host, name, passwd, db,  procedure_schema, procedure_name_10)
 
 
 # Run view to QA Check
